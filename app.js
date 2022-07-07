@@ -4,7 +4,7 @@ const button = document.querySelector('button')
 form.addEventListener('change', e => {
     e.preventDefault()
     console.log('hello')
-    const password = String('Jumola').toLowerCase()
+    const password = String('IseOluwa01$').toLowerCase()
     console.log(typeof password)
     const input = form.password.value.toLowerCase().trim()
     console.log(typeof input)
